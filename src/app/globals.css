@@ -2,19 +2,13 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Import original CSS files */
-@import url('/assets/css/unicons.min.css');
-@import url('/assets/css/swiper-bundle.min.css');
-@import url('/assets/css/prettify.min.css');
-@import url('/assets/css/magic-cursor.min.css');
-
 /* Custom styles */
 .uni-body {
-  font-family: 'Graphik-Regular', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'DegularDisplay-Semibold', sans-serif;
+  font-weight: 600;
 }
 
 /* Dark mode utilities */
@@ -263,17 +257,6 @@ input:checked + .slider:before {
   @media (min-width: 1280px) {
     font-size: 1.25rem;
   }
-}
-
-/* Icon utilities */
-.icon-2 {
-  width: 1rem;
-  height: 1rem;
-}
-
-/* Overflow utilities */
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 /* Container utilities */
